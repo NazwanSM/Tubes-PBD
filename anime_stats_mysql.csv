@@ -1,5 +1,5 @@
 user_username,anime_main_title,watch_status,rating
-jason35,Barakamon,Watching,
+jason35,Barakamon,Watching,NULL
 jason35,Konosuba,Watching,1.0
 jason35,JoJo's Bizarre Adventure,Completed,3.0
 jason35,My Hero Academia,Completed,2.0
@@ -8,33 +8,33 @@ xrodriguez,Darling in the Franxx,On Hold,3.0
 xrodriguez,The Disastrous Life of Saiki K.,Dropped,5.0
 xrodriguez,Fairy Tail,Plan to Watch,10.0
 xrodriguez,Fate/Stay Night,Plan to Watch,8.0
-xrodriguez,Sword Art Online Alternative: Gun Gale Online,On Hold,
-willisamanda,Shokugeki no Soma,Plan to Watch,
+xrodriguez,Sword Art Online Alternative: Gun Gale Online,On Hold,NULL
+willisamanda,Shokugeki no Soma,Plan to Watch,NULL
 willisamanda,Kakegurui,Plan to Watch,8.0
 willisamanda,Promised Neverland,Completed,3.0
 willisamanda,Vinland Saga,Dropped,6.0
 willisamanda,Cowboy Bebop,On Hold,5.0
 willisamanda,Code Geass,On Hold,6.0
 willisamanda,Bungo Stray Dogs,Completed,5.0
-xguzman,One Piece,Watching,
-xguzman,Made in Abyss,Completed,
+xguzman,One Piece,Watching,NULL
+xguzman,Made in Abyss,Completed,NULL
 xguzman,Noragami,Plan to Watch,9.0
-scott33,Black Butler,On Hold,
+scott33,Black Butler,On Hold,NULL
 scott33,JoJo's Bizarre Adventure,Dropped,10.0
 scott33,Erased,On Hold,7.0
 scott33,Dororo,Watching,7.0
-scott33,The Disastrous Life of Saiki K.,Completed,
+scott33,The Disastrous Life of Saiki K.,Completed,NULL
 scott33,Overlord,On Hold,7.0
 james40,Dororo,On Hold,6.0
 james40,Sword Art Online,Dropped,5.0
-james40,Promised Neverland,On Hold,
+james40,Promised Neverland,On Hold,NULL
 james40,K-On!,Completed,8.0
 rliu,Steins;Gate,Dropped,5.0
-rliu,Mushoku Tensei,Completed,
-rliu,Spy x Family,On Hold,
+rliu,Mushoku Tensei,Completed,NULL
+rliu,Spy x Family,On Hold,NULL
 rliu,Fullmetal Alchemist,On Hold,10.0
 rliu,Attack on Titan,Completed,7.0
-hamiltonbrandi,Your Lie in April,Plan to Watch,
+hamiltonbrandi,Your Lie in April,Plan to Watch,NULL
 hamiltonbrandi,Mushoku Tensei,Watching,2.0
 hamiltonbrandi,Kakegurui,Watching,10.0
 davisashley,Black Clover,Watching,1.0
@@ -42,7 +42,7 @@ aguirrethomas,Erased,Watching,3.0
 aguirrethomas,That Time I Got Reincarnated as a Slime,Watching,6.0
 jimenezjohn,That Time I Got Reincarnated as a Slime,Watching,2.0
 jimenezjohn,Cowboy Bebop,Watching,9.0
-jimenezjohn,Dr. Stone,Watching,
+jimenezjohn,Dr. Stone,Watching,NULL
 jimenezjohn,Dororo,Plan to Watch,1.0
 jimenezjohn,Fruits Basket,Dropped,7.0
 jimenezjohn,Oregairu,Watching,5.0
@@ -54,16 +54,16 @@ rpatterson,Naruto,On Hold,5.0
 rpatterson,Golden Kamuy,On Hold,2.0
 rpatterson,Barakamon,Completed,9.0
 rpatterson,Saekano,Watching,9.0
-melissa31,Naruto,Watching,
+melissa31,Naruto,Watching,NULL
 melissa31,Dr. Stone,On Hold,8.0
 melissa31,Bungo Stray Dogs,Completed,5.0
 melissa31,Ansatsu Kyoushitsu,Plan to Watch,8.0
 melissa31,Mushoku Tensei,Dropped,2.0
 melissa31,Yowamushi Pedal,Completed,4.0
-melissa31,Fairy Tail,Watching,
+melissa31,Fairy Tail,Watching,NULL
 mcgeekenneth,Parasyte,Dropped,2.0
 mcgeekenneth,Megalobox,On Hold,2.0
-mcgeekenneth,Black Butler,Completed,
+mcgeekenneth,Black Butler,Completed,NULL
 mcgeekenneth,One Piece,Plan to Watch,3.0
 mcgeekenneth,Saekano,Watching,7.0
 mcgeekenneth,Code Geass,Plan to Watch,5.0
@@ -71,10 +71,10 @@ mcgeekenneth,Yowamushi Pedal,Watching,7.0
 mcgeekenneth,Kakegurui,Plan to Watch,9.0
 paulabradley,Cowboy Bebop,Watching,10.0
 paulabradley,Vinland Saga,On Hold,8.0
-paulabradley,Gintama,Dropped,
+paulabradley,Gintama,Dropped,NULL
 paulabradley,Nisekoi,Completed,10.0
 paulabradley,Violet Evergarden,Dropped,5.0
-paulabradley,Kakegurui,Completed,
+paulabradley,Kakegurui,Completed,NULL
 paulabradley,Blue Exorcist,Completed,4.0
 paulabradley,Charlotte,Watching,6.0
 stephanie68,Free!,On Hold,8.0
@@ -88,31 +88,31 @@ milleranita,Free!,Plan to Watch,9.0
 milleranita,Haikyuu!!,Watching,5.0
 milleranita,Mob Psycho 100,Dropped,10.0
 milleranita,Berserk,Plan to Watch,5.0
-milleranita,Your Lie in April,Watching,
+milleranita,Your Lie in April,Watching,NULL
 milleranita,Erased,Plan to Watch,4.0
 milleranita,Cells at Work,On Hold,5.0
-milleranita,Your Name,Plan to Watch,
-terri07,The Disastrous Life of Saiki K.,Plan to Watch,
+milleranita,Your Name,Plan to Watch,NULL
+terri07,The Disastrous Life of Saiki K.,Plan to Watch,NULL
 terri07,Jujutsu Kaisen,Plan to Watch,10.0
 terri07,Kakegurui,Completed,10.0
-terri07,Horimiya,Plan to Watch,
-terri07,Lucky Star,Watching,
+terri07,Horimiya,Plan to Watch,NULL
+terri07,Lucky Star,Watching,NULL
 terri07,Magi,Dropped,8.0
 terri07,Naruto,On Hold,3.0
-jmatthews,Durarara!!,Completed,
+jmatthews,Durarara!!,Completed,NULL
 jmatthews,Nichijou,On Hold,9.0
 jmatthews,Lucky Star,Watching,7.0
 jmatthews,Fullmetal Alchemist,Dropped,5.0
 garciamartha,Nisekoi,Completed,5.0
 garciamartha,Kuroko's Basketball,On Hold,2.0
-garciamartha,Parasyte,Plan to Watch,
+garciamartha,Parasyte,Plan to Watch,NULL
 hporter,Your Lie in April,Completed,2.0
 andersonpatrick,A Silent Voice,Plan to Watch,5.0
 andersonpatrick,Anohana,Dropped,2.0
-andersonpatrick,Lucky Star,On Hold,
-andersonpatrick,Megalobox,Plan to Watch,
+andersonpatrick,Lucky Star,On Hold,NULL
+andersonpatrick,Megalobox,Plan to Watch,NULL
 zaguilar,Vinland Saga,Completed,7.0
-zaguilar,Promised Neverland,Watching,
+zaguilar,Promised Neverland,Watching,NULL
 zaguilar,Saekano,Dropped,3.0
 zaguilar,Chainsaw Man,Plan to Watch,5.0
 zaguilar,Bleach,Watching,6.0
@@ -121,45 +121,45 @@ zaguilar,Yowamushi Pedal,Completed,1.0
 zaguilar,K-On!,Dropped,7.0
 jwatson,Nisekoi,On Hold,9.0
 jwatson,Re:Zero,On Hold,5.0
-jwatson,Mushoku Tensei,Completed,
+jwatson,Mushoku Tensei,Completed,NULL
 jwatson,No Game No Life,Watching,5.0
 rebeccabrewer,K-On!,Dropped,9.0
 rebeccabrewer,Hunter x Hunter,Plan to Watch,5.0
-scottholmes,Yuri!!! on Ice,On Hold,
+scottholmes,Yuri!!! on Ice,On Hold,NULL
 dana61,Made in Abyss,Watching,10.0
 dana61,Your Name,Dropped,1.0
 dana61,Demon Slayer,Completed,6.0
-valerie13,Fullmetal Alchemist,Completed,
+valerie13,Fullmetal Alchemist,Completed,NULL
 randydavis,Mushoku Tensei,Watching,3.0
 randydavis,Yowamushi Pedal,Watching,5.0
 dwaynemoore,Horimiya,Dropped,3.0
 dwaynemoore,Spy x Family,Plan to Watch,7.0
 dwaynemoore,Nisekoi,Watching,1.0
-dwaynemoore,Fruits Basket,Watching,
+dwaynemoore,Fruits Basket,Watching,NULL
 dwaynemoore,Erased,Watching,10.0
 dwaynemoore,Psycho-Pass,On Hold,3.0
-dwaynemoore,Konosuba,Completed,
+dwaynemoore,Konosuba,Completed,NULL
 dwaynemoore,Violet Evergarden,Dropped,4.0
 bonnieperez,JoJo's Bizarre Adventure,Dropped,3.0
-bonnieperez,Your Lie in April,Dropped,
-bonnieperez,Goblin Slayer,On Hold,
+bonnieperez,Your Lie in April,Dropped,NULL
+bonnieperez,Goblin Slayer,On Hold,NULL
 jeffreysantos,Nichijou,Watching,7.0
 jeffreysantos,Durarara!!,Plan to Watch,3.0
-jeffreysantos,Parasyte,On Hold,
+jeffreysantos,Parasyte,On Hold,NULL
 jeffreysantos,Goblin Slayer,On Hold,7.0
-jeffreysantos,Darling in the Franxx,Completed,
+jeffreysantos,Darling in the Franxx,Completed,NULL
 daniel63,Code Geass,Completed,10.0
 daniel63,Bleach,Dropped,9.0
 daniel63,Overlord,Completed,4.0
-daniel63,Attack on Titan,Watching,
+daniel63,Attack on Titan,Watching,NULL
 daniel63,Naruto,Plan to Watch,9.0
-mcculloughmark,Fruits Basket,Completed,
+mcculloughmark,Fruits Basket,Completed,NULL
 mcculloughmark,Your Lie in April,On Hold,2.0
 mcculloughmark,Bleach,On Hold,1.0
 mcculloughmark,Barakamon,Plan to Watch,4.0
 mcculloughmark,Darling in the Franxx,Watching,2.0
 mcculloughmark,Psycho-Pass,Watching,10.0
-mcculloughmark,My Hero Academia,On Hold,
+mcculloughmark,My Hero Academia,On Hold,NULL
 kendra49,Death Note,Dropped,7.0
 kendra49,Cells at Work,On Hold,8.0
 kendra49,Ansatsu Kyoushitsu,Plan to Watch,10.0
@@ -167,8 +167,8 @@ jgriffin,Magi,Completed,2.0
 jgriffin,Lucky Star,Completed,3.0
 jgriffin,Mob Psycho 100,Dropped,1.0
 jgriffin,Attack on Titan,On Hold,4.0
-jgriffin,Cells at Work,Plan to Watch,
-jgriffin,The Disastrous Life of Saiki K.,Watching,
+jgriffin,Cells at Work,Plan to Watch,NULL
+jgriffin,The Disastrous Life of Saiki K.,Watching,NULL
 gvelasquez,Bungo Stray Dogs,Watching,9.0
 gvelasquez,Megalobox,Dropped,3.0
 gvelasquez,Steins;Gate,On Hold,6.0
@@ -190,25 +190,25 @@ cohenzachary,Psycho-Pass,Dropped,4.0
 cohenzachary,Bleach,Dropped,2.0
 cohenzachary,Dr. Stone,On Hold,7.0
 cohenzachary,Spy x Family,Dropped,4.0
-cohenzachary,Fullmetal Alchemist,Dropped,
+cohenzachary,Fullmetal Alchemist,Dropped,NULL
 carrie18,Gintama,On Hold,3.0
 carrie18,Fairy Tail,Completed,2.0
 carrie18,Hinamatsuri,Dropped,1.0
 carrie18,Black Butler,Watching,1.0
-carrie18,Fruits Basket,On Hold,
+carrie18,Fruits Basket,On Hold,NULL
 carrie18,Made in Abyss,Completed,9.0
 carrie18,The Disastrous Life of Saiki K.,Completed,2.0
-carrie18,Blue Exorcist,Watching,
-paynefrank,Tokyo Ghoul,Watching,
+carrie18,Blue Exorcist,Watching,NULL
+paynefrank,Tokyo Ghoul,Watching,NULL
 cchen,No Game No Life,Plan to Watch,4.0
 cchen,Megalobox,Plan to Watch,5.0
-cchen,Charlotte,On Hold,
-cchen,Nichijou,Watching,
-cchen,Hinamatsuri,Watching,
+cchen,Charlotte,On Hold,NULL
+cchen,Nichijou,Watching,NULL
+cchen,Hinamatsuri,Watching,NULL
 cchen,Cells at Work,Watching,10.0
 royshelley,Fullmetal Alchemist,Plan to Watch,9.0
-royshelley,Nichijou,Watching,
-royshelley,Sword Art Online Alternative: Gun Gale Online,Completed,
+royshelley,Nichijou,Watching,NULL
+royshelley,Sword Art Online Alternative: Gun Gale Online,Completed,NULL
 roger24,Charlotte,Completed,6.0
 patriciaalvarado,Blue Exorcist,On Hold,7.0
 patrick05,Monogatari Series,On Hold,4.0
@@ -235,62 +235,62 @@ hernandezmary,A Silent Voice,Watching,6.0
 hernandezmary,That Time I Got Reincarnated as a Slime,Completed,4.0
 nicole97,Saekano,Dropped,7.0
 nicole97,Attack on Titan,Watching,7.0
-nicole97,Oregairu,Watching,
-nicole97,Fullmetal Alchemist,Watching,
+nicole97,Oregairu,Watching,NULL
+nicole97,Fullmetal Alchemist,Watching,NULL
 nicole97,Anohana,Plan to Watch,10.0
-nicole97,Horimiya,On Hold,
+nicole97,Horimiya,On Hold,NULL
 thomas64,Saekano,Plan to Watch,7.0
 thomas64,Golden Kamuy,Watching,4.0
 thomas64,Durarara!!,Completed,4.0
 plopez,Psycho-Pass,Completed,10.0
-plopez,Parasyte,Dropped,
+plopez,Parasyte,Dropped,NULL
 plopez,Free!,Completed,9.0
 plopez,Chainsaw Man,Watching,3.0
-plopez,A Silent Voice,On Hold,
+plopez,A Silent Voice,On Hold,NULL
 plopez,K-On!,On Hold,10.0
 plopez,Nisekoi,Plan to Watch,3.0
 plopez,Bungo Stray Dogs,Completed,8.0
 robinsontammy,Charlotte,On Hold,9.0
 robinsontammy,Horimiya,Plan to Watch,9.0
-robinsontammy,Violet Evergarden,On Hold,
-robinsontammy,Steins;Gate,Watching,
+robinsontammy,Violet Evergarden,On Hold,NULL
+robinsontammy,Steins;Gate,Watching,NULL
 robinsontammy,Nichijou,Plan to Watch,3.0
 robinsontammy,Clannad,Watching,7.0
 robinsontammy,Sword Art Online Alternative: Gun Gale Online,Plan to Watch,9.0
 jnelson,Barakamon,Watching,6.0
-jnelson,Golden Kamuy,Watching,
+jnelson,Golden Kamuy,Watching,NULL
 jnelson,Kuroko's Basketball,Completed,1.0
 jnelson,Fate/Stay Night,On Hold,8.0
 jnelson,Darling in the Franxx,Watching,2.0
 jnelson,Durarara!!,Dropped,1.0
 jnelson,Psycho-Pass,Dropped,9.0
 jnelson,Horimiya,Watching,9.0
-villanuevabrittany,Mob Psycho 100,Completed,
+villanuevabrittany,Mob Psycho 100,Completed,NULL
 andrew58,Kakegurui,Completed,7.0
 andrew58,Psycho-Pass,Dropped,8.0
-andrew58,Overlord,Completed,
-andrew58,Dr. Stone,Plan to Watch,
+andrew58,Overlord,Completed,NULL
+andrew58,Dr. Stone,Plan to Watch,NULL
 andrew58,Mob Psycho 100,Completed,2.0
 msmith,A Silent Voice,Completed,7.0
 msmith,Berserk,On Hold,10.0
 msmith,Sword Art Online Alternative: Gun Gale Online,Plan to Watch,9.0
-msmith,Gintama,Dropped,
+msmith,Gintama,Dropped,NULL
 msmith,Oregairu,Completed,8.0
-gregoryvalenzuela,K-On!,Completed,
+gregoryvalenzuela,K-On!,Completed,NULL
 gregoryvalenzuela,Spy x Family,Plan to Watch,6.0
 gregoryvalenzuela,Blue Exorcist,On Hold,2.0
 gregoryvalenzuela,Rising of the Shield Hero,On Hold,4.0
 gregoryvalenzuela,Overlord,On Hold,7.0
 gregoryvalenzuela,Bleach,On Hold,10.0
-gregoryvalenzuela,Saekano,Watching,
+gregoryvalenzuela,Saekano,Watching,NULL
 dmejia,Kakegurui,Dropped,8.0
-dmejia,The Disastrous Life of Saiki K.,Completed,
-lambertdavid,Yowamushi Pedal,Completed,
+dmejia,The Disastrous Life of Saiki K.,Completed,NULL
+lambertdavid,Yowamushi Pedal,Completed,NULL
 lambertdavid,Dr. Stone,Dropped,6.0
 lambertdavid,Megalobox,Watching,6.0
 charles17,Promised Neverland,Plan to Watch,7.0
 charles17,The Disastrous Life of Saiki K.,Watching,7.0
-ftaylor,Durarara!!,On Hold,
+ftaylor,Durarara!!,On Hold,NULL
 ftaylor,Horimiya,Completed,6.0
 ftaylor,Overlord,Watching,4.0
 ftaylor,Naruto,Completed,9.0
@@ -309,18 +309,18 @@ bshepard,Steins;Gate,Plan to Watch,2.0
 josephhuffman,Kakegurui,On Hold,2.0
 josephhuffman,My Hero Academia,On Hold,1.0
 josephhuffman,Shokugeki no Soma,Completed,6.0
-josephhuffman,Dr. Stone,Completed,
+josephhuffman,Dr. Stone,Completed,NULL
 josephhuffman,The Disastrous Life of Saiki K.,Watching,8.0
 josephhuffman,Neon Genesis Evangelion,Plan to Watch,1.0
 josephhuffman,Naruto,Plan to Watch,7.0
 wsmith,Mob Psycho 100,On Hold,3.0
-wsmith,Saekano,Completed,
+wsmith,Saekano,Completed,NULL
 wsmith,Hinamatsuri,Dropped,1.0
 wsmith,Psycho-Pass,Plan to Watch,6.0
 wsmith,Bleach,On Hold,3.0
 wsmith,Blue Exorcist,Plan to Watch,4.0
 chad29,Haikyuu!!,On Hold,2.0
-chad29,Violet Evergarden,On Hold,
+chad29,Violet Evergarden,On Hold,NULL
 chad29,Your Lie in April,On Hold,8.0
 chad29,Saekano,On Hold,10.0
 chad29,Yowamushi Pedal,Watching,1.0
@@ -329,7 +329,7 @@ fbutler,Nisekoi,Dropped,3.0
 fbutler,Code Geass,Completed,8.0
 fbutler,Clannad,Plan to Watch,3.0
 fbutler,Darling in the Franxx,On Hold,10.0
-fbutler,Vinland Saga,Completed,
+fbutler,Vinland Saga,Completed,NULL
 fbutler,Kakegurui,Completed,1.0
 fbutler,Erased,On Hold,8.0
 fbutler,Golden Kamuy,Watching,1.0
@@ -348,40 +348,40 @@ romerodonna,Magi,Dropped,4.0
 romerodonna,Yowamushi Pedal,Completed,10.0
 romerodonna,Fate/Stay Night,Plan to Watch,2.0
 romerodonna,Barakamon,On Hold,1.0
-romerodonna,Sword Art Online Alternative: Gun Gale Online,Watching,
+romerodonna,Sword Art Online Alternative: Gun Gale Online,Watching,NULL
 romerodonna,Psycho-Pass,Completed,2.0
 uwang,Fullmetal Alchemist,Plan to Watch,8.0
-uwang,K-On!,Completed,
+uwang,K-On!,Completed,NULL
 uwang,Hunter x Hunter,Plan to Watch,3.0
-uwang,Shokugeki no Soma,Completed,
+uwang,Shokugeki no Soma,Completed,NULL
 jenniferjohnson,Nisekoi,Watching,1.0
 jenniferjohnson,Sword Art Online Alternative: Gun Gale Online,On Hold,7.0
-jenniferjohnson,Horimiya,Completed,
+jenniferjohnson,Horimiya,Completed,NULL
 heidirose,Free!,On Hold,7.0
 heidirose,Fullmetal Alchemist,On Hold,7.0
-heidirose,A Silent Voice,Dropped,
+heidirose,A Silent Voice,Dropped,NULL
 heidirose,Goblin Slayer,Watching,10.0
 heidirose,Death Note,Completed,7.0
 xdavis,Erased,On Hold,4.0
 xdavis,Konosuba,Completed,7.0
 xdavis,Megalobox,Watching,5.0
 xdavis,Darling in the Franxx,Watching,6.0
-xdavis,Re:Zero,On Hold,
+xdavis,Re:Zero,On Hold,NULL
 xdavis,JoJo's Bizarre Adventure,Plan to Watch,9.0
 richardshields,Nichijou,Dropped,6.0
 richardshields,One Piece,Completed,9.0
-richardshields,Mob Psycho 100,Plan to Watch,
+richardshields,Mob Psycho 100,Plan to Watch,NULL
 richardshields,Gintama,Dropped,9.0
 melissa65,Bungo Stray Dogs,Plan to Watch,1.0
 melissa65,Fruits Basket,Dropped,2.0
-melissa65,Nichijou,Dropped,
-melissa65,Mushoku Tensei,Completed,
+melissa65,Nichijou,Dropped,NULL
+melissa65,Mushoku Tensei,Completed,NULL
 melissa65,No Game No Life,Plan to Watch,4.0
 adamwoods,Oregairu,Dropped,1.0
 adamwoods,Haikyuu!!,Completed,8.0
 adamwoods,Anohana,Plan to Watch,8.0
-adamwoods,Noragami,Dropped,
-adamwoods,Re:Zero,On Hold,
+adamwoods,Noragami,Dropped,NULL
+adamwoods,Re:Zero,On Hold,NULL
 williamsholly,Overlord,Completed,1.0
 williamsholly,Nisekoi,On Hold,9.0
 williamsholly,Yuri!!! on Ice,Completed,8.0
@@ -391,32 +391,32 @@ leejoseph,Nichijou,Completed,9.0
 leejoseph,Black Clover,Plan to Watch,6.0
 leejoseph,Lucky Star,On Hold,6.0
 lewistiffany,Bleach,Watching,1.0
-lewistiffany,Black Butler,Plan to Watch,
+lewistiffany,Black Butler,Plan to Watch,NULL
 lori88,Noragami,Dropped,2.0
 tcollins,Fairy Tail,Watching,9.0
 tcollins,Goblin Slayer,Watching,3.0
 tcollins,Dr. Stone,Plan to Watch,3.0
-tcollins,Parasyte,On Hold,
-tcollins,JoJo's Bizarre Adventure,Plan to Watch,
+tcollins,Parasyte,On Hold,NULL
+tcollins,JoJo's Bizarre Adventure,Plan to Watch,NULL
 rlyons,Noragami,Dropped,9.0
 rlyons,Black Butler,On Hold,5.0
 pabbott,Black Clover,Plan to Watch,9.0
 pabbott,No Game No Life,Watching,6.0
-pabbott,Fairy Tail,On Hold,
-pabbott,Naruto,Plan to Watch,
+pabbott,Fairy Tail,On Hold,NULL
+pabbott,Naruto,Plan to Watch,NULL
 pabbott,Mob Psycho 100,Dropped,1.0
 hernandezsteven,Shokugeki no Soma,Completed,8.0
 hernandezsteven,Barakamon,Completed,10.0
 hernandezsteven,Sword Art Online,Watching,9.0
-hernandezsteven,Fairy Tail,On Hold,
-hernandezsteven,Rising of the Shield Hero,Completed,
+hernandezsteven,Fairy Tail,On Hold,NULL
+hernandezsteven,Rising of the Shield Hero,Completed,NULL
 margaretgonzalez,Psycho-Pass,Plan to Watch,4.0
 margaretgonzalez,No Game No Life,Watching,6.0
 margaretgonzalez,Barakamon,Watching,7.0
 margaretgonzalez,Naruto,Plan to Watch,8.0
-margaretgonzalez,Rising of the Shield Hero,Plan to Watch,
+margaretgonzalez,Rising of the Shield Hero,Plan to Watch,NULL
 fryan,Jujutsu Kaisen,Plan to Watch,10.0
-fryan,Lucky Star,Completed,
+fryan,Lucky Star,Completed,NULL
 fryan,Cowboy Bebop,Completed,4.0
 fryan,Charlotte,On Hold,8.0
 steven07,Demon Slayer,Watching,6.0
@@ -430,11 +430,11 @@ michaelgarcia,Bleach,On Hold,2.0
 michaelgarcia,Overlord,Dropped,6.0
 michaelgarcia,Haikyuu!!,Dropped,9.0
 delgadojeffrey,Your Lie in April,Completed,7.0
-delgadojeffrey,Violet Evergarden,Watching,
+delgadojeffrey,Violet Evergarden,Watching,NULL
 delgadojeffrey,Psycho-Pass,Watching,2.0
 delgadojeffrey,Charlotte,Completed,6.0
 delgadojeffrey,Fruits Basket,Plan to Watch,10.0
-delgadojeffrey,Oregairu,Plan to Watch,
+delgadojeffrey,Oregairu,Plan to Watch,NULL
 delgadojeffrey,Made in Abyss,Dropped,7.0
 elizabeth99,Anohana,Completed,5.0
 elizabeth99,Your Lie in April,Dropped,7.0
@@ -447,9 +447,9 @@ norriseduardo,Magi,Dropped,4.0
 ihunt,Promised Neverland,Dropped,6.0
 ihunt,Hinamatsuri,On Hold,2.0
 ihunt,My Hero Academia,Watching,5.0
-ihunt,Magi,Dropped,
-owilson,Fairy Tail,Dropped,
-owilson,Ansatsu Kyoushitsu,Watching,
+ihunt,Magi,Dropped,NULL
+owilson,Fairy Tail,Dropped,NULL
+owilson,Ansatsu Kyoushitsu,Watching,NULL
 owilson,Chainsaw Man,Completed,3.0
 owilson,Tokyo Ghoul,Watching,3.0
 owilson,Your Lie in April,Watching,1.0
@@ -460,10 +460,10 @@ diana32,Made in Abyss,Completed,10.0
 diana32,JoJo's Bizarre Adventure,Plan to Watch,6.0
 diana32,Lucky Star,Dropped,10.0
 diana32,Goblin Slayer,Watching,3.0
-diana32,Dororo,Completed,
-diana32,Konosuba,Plan to Watch,
+diana32,Dororo,Completed,NULL
+diana32,Konosuba,Plan to Watch,NULL
 peter86,The Disastrous Life of Saiki K.,Plan to Watch,5.0
-peter86,Promised Neverland,Dropped,
+peter86,Promised Neverland,Dropped,NULL
 peter86,Golden Kamuy,Dropped,6.0
 rebeccafox,Charlotte,Plan to Watch,2.0
 rebeccafox,One Piece,Dropped,8.0

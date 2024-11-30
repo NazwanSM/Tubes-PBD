@@ -2,56 +2,85 @@ import pandas as pd
 import random
 from datetime import datetime, timedelta
 
-user_df = pd.read_csv('user.csv')
-
-def generate_discussions(user_df, num_discussions_per_user=3):
-    # Siapkan list untuk menyimpan data diskusi
-    discussions_list = []
-    
-    # Daftar deskripsi diskusi contoh
-    discussion_descriptions = [
-        "Diskusi tentang pengembangan teknologi terbaru",
-        "Sharing pengalaman belajar pemrograman",
-        "Strategi manajemen proyek IT",
-        "Tips sukses dalam karier teknologi informasi",
-        "Analisis tren teknologi masa depan",
-        "Diskusi tentang kecerdasan buatan",
-        "Pengalaman magang di perusahaan teknologi",
-        "Berbagi pengetahuan tentang desain antarmuka",
-        "Membahas etika dalam pengembangan teknologi",
-        "Diskusi tentang keamanan informasi",
-        "Pengembangan software open source",
-        "Tantangan dalam dunia pengembangan web",
-        "Strategi belajar pemrograman yang efektif",
-        "Diskusi tentang blockchain dan cryptocurrency",
-        "Pengalaman mengikuti kompetisi coding"
+def generate_weak_entity_discussions(user_df, num_discussions_per_title=3):
+    # Daftar judul diskusi anime dan manga yang spesifik
+    discussion_titles = [
+        "Analisis Genre Shounen Terkini",
+        "Perkembangan Manga Slice of Life",
+        "Evolusi Genre Mecha dalam Anime",
+        "Trend Isekai di Industri Anime",
+        "Karakteristik Anime Psychological",
+        "Karya Terbaru Studio Ghibli",
+        "Perbandingan Anime MAPPA vs Ufotable",
+        "Kejayaan Studio Trigger",
+        "Anime Original vs Adaptasi Manga",
+        "Peranan Animator Legendaris Jepang",
+        "Filosofi dalam Karya Makoto Shinkai",
+        "Representasi Sosial dalam Manga Kontemporer",
+        "Perkembangan Karakter dalam Anime Modern",
+        "Teknik Storytelling di Anime Populer",
+        "Pengaruh Budaya Pop Jepang dalam Anime",
+        "Sejarah Perkembangan Manga Shojo",
+        "Fenomena Crossover Anime",
+        "Dampak Streaming terhadap Industri Anime",
+        "Anime sebagai Media Ekspresi Sosial",
+        "Komparasi Manga Original dan Adaptasinya"
     ]
+    
+    discussion_descriptions = [
+        "Diskusi mendalam tentang tren dan perkembangan terbaru dalam dunia anime.",
+        "Analisis komprehensif tentang karakteristik dan inovasi dalam genre anime.",
+        "Eksplorasi mendalam tentang teknik storytelling dalam manga kontemporer.",
+        "Pembahasan kritis tentang representasi sosial dalam karya anime terkini.",
+        "Tinjauan komprehensif tentang pengaruh budaya pop terhadap industri anime.",
+        "Refleksi tentang peran anime dalam mengkomunikasikan isu-isu sosial.",
+        "Diskusi interaktif seputar evolusi genre dan tema dalam manga.",
+        "Analisis mendalam tentang teknik animasi dan storytelling terbaru.",
+        "Pembahasan tentang pengaruh teknologi dalam produksi anime modern.",
+        "Eksplorasi kontribusi studio anime terkemuka dalam industri global."
+    ]
+    
+    # Dictionary untuk melacak urutan diskusi terakhir untuk setiap judul
+    last_discussion_order = {title: 0 for title in discussion_titles}
+    
+    # List untuk menyimpan data diskusi
+    discussions_list = []
     
     # Loop melalui setiap pengguna
     for _, user in user_df.iterrows():
         username = user['username']
         
-        # Tentukan jumlah diskusi untuk pengguna ini
-        num_discussions = random.randint(1, num_discussions_per_user)
+        # Pilih sejumlah judul diskusi secara acak untuk user ini
+        selected_titles = random.sample(discussion_titles, 
+                                        k=random.randint(1, min(5, len(discussion_titles))))
         
-        # Generate diskusi untuk pengguna
-        for discussion_order in range(1, num_discussions + 1):
-            # Pilih deskripsi diskusi secara acak
-            description = random.choice(discussion_descriptions)
+        # Generate diskusi untuk setiap judul
+        for discussion_title in selected_titles:
+            # Tentukan jumlah diskusi untuk judul ini
+            num_discussions = random.randint(1, num_discussions_per_title)
             
-            # Generate tanggal posting (antara tanggal bergabung dan sekarang)
-            date_joined = pd.to_datetime(user['date_joined'])
-            max_days = (datetime.now() - date_joined).days
-            random_days = random.randint(0, max_days)
-            date_posted = date_joined + timedelta(days=random_days)
-            
-            # Tambahkan data diskusi ke list
-            discussions_list.append({
-                'username': username,
-                'discussion_order_number': discussion_order,
-                'descriptions': description,
-                'date_posted': date_posted.date()
-            })
+            # Buat daftar urutan diskusi untuk judul ini
+            for _ in range(num_discussions):
+                # Naikkan urutan diskusi untuk judul ini
+                last_discussion_order[discussion_title] += 1
+                
+                # Pilih deskripsi diskusi secara acak
+                description = random.choice(discussion_descriptions)
+                
+                # Generate tanggal posting (antara tanggal bergabung dan sekarang)
+                date_joined = pd.to_datetime(user['date_joined'])
+                max_days = (datetime.now() - date_joined).days
+                random_days = random.randint(0, max_days)
+                date_posted = date_joined + timedelta(days=random_days)
+                
+                # Tambahkan data diskusi ke list
+                discussions_list.append({
+                    'username': username,
+                    'discussion_title': discussion_title,
+                    'discussion_order_number': last_discussion_order[discussion_title],
+                    'descriptions': description,
+                    'date_posted': date_posted.date()
+                })
     
     # Buat DataFrame dari list diskusi
     discussions_df = pd.DataFrame(discussions_list)
@@ -59,9 +88,10 @@ def generate_discussions(user_df, num_discussions_per_user=3):
     return discussions_df
 
 # Baca file CSV user
+user_df = pd.read_csv('user.csv')
 
-# Generate relasi discussions
-discussions_relations = generate_discussions(user_df)
+# Generate relasi discussions sebagai weak entity
+weak_entity_discussions = generate_weak_entity_discussions(user_df)
 
 # Simpan ke CSV
-discussions_relations.to_csv('discussions.csv', index=False)
+weak_entity_discussions.to_csv('weak_entity_anime_discussions.csv', index=False)

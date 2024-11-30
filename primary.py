@@ -129,14 +129,40 @@ def generate_series_data(jumlah_data):
     # Gunakan series_titles yang sudah ada, pastikan tidak ada judul kosong
     valid_titles = [title for title in series_titles if title.strip()]
     
-    for i in range(min(jumlah_data, len(valid_titles))):
+    # Generate 79 data Anime sesuai urutan
+    for i in range(79):
         main_title = valid_titles[i]
+        
         data.append({
             'main_title': main_title,
             'synopsis': fake.text(max_nb_chars=500),
-            'rating_score': round(random.uniform(1.0, 5.0), 1),
+            'rating_score': round(random.uniform(1.0, 10.0), 1),
             'rating_total_users': random.randint(100, 10000),
-            'media_type': random.choice(['Manga', 'Anime']),
+            'media_type': 'Anime',
+            'status': random.choice(['Ongoing', 'Completed']),
+            'genres': ', '.join(random.sample(genres, random.randint(1, 3))),
+            'themes': ', '.join(random.sample(themes, random.randint(1, 3))),
+            'demographics': random.choice(demographics),
+            'total_members': random.randint(1000, 100000),
+            'total_favorites': random.randint(100, 10000),
+            'official_site': fake.url()
+        })
+
+    # Generate 79 data Manga menggunakan sisa judul atau judul buatan
+    for i in range(79):
+        # Gunakan judul dari valid_titles jika masih tersedia
+        if i + 79 < len(valid_titles):
+            main_title = valid_titles[i + 79]
+        else:
+            # Jika judul habis, buat judul buatan
+            main_title = f"Manga Title {i+1}"
+        
+        data.append({
+            'main_title': main_title,
+            'synopsis': fake.text(max_nb_chars=500),
+            'rating_score': round(random.uniform(1.0, 10.0), 1),
+            'rating_total_users': random.randint(100, 10000),
+            'media_type': 'Manga',
             'status': random.choice(['Ongoing', 'Completed']),
             'genres': ', '.join(random.sample(genres, random.randint(1, 3))),
             'themes': ', '.join(random.sample(themes, random.randint(1, 3))),
@@ -146,25 +172,9 @@ def generate_series_data(jumlah_data):
             'official_site': fake.url()
         })
     
-    # Jika jumlah_data lebih besar dari jumlah judul, tambahkan data acak
-    if jumlah_data > len(valid_titles):
-        for _ in range(jumlah_data - len(valid_titles)):
-            data.append({
-                'main_title': fake.catch_phrase(),  # Gunakan catch_phrase sebagai judul acak
-                'synopsis': fake.text(max_nb_chars=500),
-                'rating_score': round(random.uniform(1.0, 5.0), 1),
-                'rating_total_users': random.randint(100, 10000),
-                'media_type': random.choice(['Manga', 'Anime']),
-                'status': random.choice(['Ongoing', 'Completed']),
-                'genres': ', '.join(random.sample(genres, random.randint(1, 3))),
-                'themes': ', '.join(random.sample(themes, random.randint(1, 3))),
-                'demographics': random.choice(demographics),
-                'total_members': random.randint(1000, 100000),
-                'total_favorites': random.randint(100, 10000),
-                'official_site': fake.url()
-            })
-    
     return data
+
+
 
 def generate_reviews_data(jumlah_data):
     data = []
@@ -184,8 +194,14 @@ def generate_reviews_data(jumlah_data):
 
 def generate_people_data(jumlah_data):
     data = []
+    existing_names = set()
+
     for _ in range(jumlah_data):
         name = random.choice(people)
+        while name in existing_names:
+            name = random.choice(people)
+        existing_names.add(name)
+
         birthday = fake.date_of_birth(minimum_age=18, maximum_age=80)
         website = fake.url()
         biography = fake.text(max_nb_chars=500) if random.random() < 0.8 else None  # 80% chance of having a biography
@@ -213,7 +229,7 @@ def generate_companies_data(jumlah_licensor, jumlah_producer, jumlah_studio):
             'company_name': anime_companies[i],
             'company_type': 'licensors',
             'date_established': fake.date_between(start_date='-50y', end_date='today'),
-            'member_favorites': random.randint(100, 3000) if random.random() < 0.8 else None
+            'member_favorites': random.randint(100, 3000)
         } for i in range(jumlah_licensor)
     ]
 
@@ -223,7 +239,7 @@ def generate_companies_data(jumlah_licensor, jumlah_producer, jumlah_studio):
             'company_name': anime_companies[i+jumlah_licensor],
             'company_type': 'producers',
             'date_established': fake.date_between(start_date='-50y', end_date='today'),
-            'member_favorites': random.randint(100, 3000) if random.random() < 0.8 else None
+            'member_favorites': random.randint(100, 3000)
         } for i in range(jumlah_producer)
     ]
 
@@ -233,7 +249,7 @@ def generate_companies_data(jumlah_licensor, jumlah_producer, jumlah_studio):
             'company_name': anime_companies[i+jumlah_licensor+jumlah_producer],
             'company_type': 'studios',
             'date_established': fake.date_between(start_date='-50y', end_date='today'),
-            'member_favorites': random.randint(100, 3000) if random.random() < 0.8 else None
+            'member_favorites': random.randint(100, 3000)
         } for i in range(jumlah_studio)
     ]
 
@@ -244,21 +260,21 @@ def generate_companies_data(jumlah_licensor, jumlah_producer, jumlah_studio):
 
     return data
 # Buat 150 data dummy pengguna
-dummy_users = generate_user_data(150)
+#dummy_users = generate_user_data(150)
 dummy_series = generate_series_data(158)
-dummy_reviews = generate_reviews_data(150)
-dummy_people = generate_people_data(200)
-dummy_companies = generate_companies_data(20, 20, 20)
+#dummy_reviews = generate_reviews_data(150)
+#dummy_people = generate_people_data(200)
+#dummy_companies = generate_companies_data(20, 20, 20)
 # Konversi ke DataFrame
-users_df = pd.DataFrame(dummy_users)
+#users_df = pd.DataFrame(dummy_users)
 series_df = pd.DataFrame(dummy_series)
-reviews_df = pd.DataFrame(dummy_reviews)
-people_df = pd.DataFrame(dummy_people)
-companies_df = pd.DataFrame(dummy_companies)
+#reviews_df = pd.DataFrame(dummy_reviews)
+#people_df = pd.DataFrame(dummy_people)
+#companies_df = pd.DataFrame(dummy_companies)
 
 # Simpan ke file CSV
-users_df.to_csv('user.csv', index=False)
+#users_df.to_csv('user.csv', index=False)
 series_df.to_csv('series.csv', index=False)
-reviews_df.to_csv('reviews.csv', index=False)
-people_df.to_csv('people.csv', index=False)
-companies_df.to_csv('companies.csv', index=False)
+#reviews_df.to_csv('reviews.csv', index=False)
+#people_df.to_csv('people.csv', index=False)
+#companies_df.to_csv('companies.csv', index=False) 

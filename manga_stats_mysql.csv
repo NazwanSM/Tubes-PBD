@@ -1,7 +1,7 @@
 user_username,manga_main_title,read_status,rating
 patriciaalvarado,Rent-a-Girlfriend,Completed,3.0
 olevy,Haganai,Dropped,3.0
-olevy,86 (Eighty-Six),Plan to Read,
+olevy,86 (Eighty-Six),Plan to Read,NULL
 olevy,Arte,Plan to Read,7.0
 olevy,ReLIFE,On Hold,2.0
 olevy,How Heavy Are the Dumbbells You Lift?,Completed,1.0
@@ -10,16 +10,16 @@ ihunt,The World God Only Knows,On Hold,8.0
 ihunt,My Next Life as a Villainess,Completed,4.0
 ihunt,Cells at Work: Code Black,Completed,2.0
 ihunt,Zombie Land Saga,Plan to Read,8.0
-ihunt,Gamers!,Reading,
+ihunt,Gamers!,Reading,NULL
 hernandezsteven,86 (Eighty-Six),Reading,6.0
 hernandezsteven,Rent-a-Girlfriend,Dropped,6.0
 jacqueline33,Beastars,Dropped,1.0
-jacqueline33,Arte,Reading,
+jacqueline33,Arte,Reading,NULL
 dmejia,Beastars,Dropped,7.0
 dmejia,A Certain Scientific Railgun,Completed,4.0
 dmejia,The Ancient Magus' Bride,Completed,10.0
 dmejia,Black Lagoon,Completed,9.0
-dmejia,Angels of Death,Reading,
+dmejia,Angels of Death,Reading,NULL
 dmejia,Zombie Land Saga,Completed,4.0
 dmejia,Domestic Girlfriend,Plan to Read,4.0
 jason35,Domestic Girlfriend,Reading,3.0
@@ -38,18 +38,18 @@ robinsontammy,Rent-a-Girlfriend,On Hold,9.0
 robinsontammy,Black Lagoon,Completed,3.0
 josephhuffman,In/Spectre,Reading,9.0
 heidirose,The Misfit of Demon King Academy,Dropped,1.0
-heidirose,Horou Musuko,Dropped,
+heidirose,Horou Musuko,Dropped,NULL
 heidirose,86 (Eighty-Six),Reading,6.0
 heidirose,Kaguya-sama: Love is War,Completed,7.0
 heidirose,Witch Hunter Robin,Dropped,6.0
-heidirose,Samurai Champloo,Completed,
+heidirose,Samurai Champloo,Completed,NULL
 ddiaz,Black Lagoon,Reading,7.0
 ddiaz,Horou Musuko,Reading,4.0
 ddiaz,Kaguya-sama: Love is War,Plan to Read,1.0
 ddiaz,Grand Blue,Reading,7.0
 ddiaz,Arifureta,On Hold,3.0
 samantha23,The Ancient Magus' Bride,Dropped,2.0
-samantha23,Gleipnir,On Hold,
+samantha23,Gleipnir,On Hold,NULL
 samantha23,Devilman Crybaby,Dropped,5.0
 samantha23,How Heavy Are the Dumbbells You Lift?,Completed,3.0
 pabbott,Carole & Tuesday,Dropped,8.0
@@ -61,31 +61,31 @@ daniel63,Sword Art Online: Alicization,Plan to Read,10.0
 daniel63,Soul Eater,Reading,4.0
 daniel63,Eden of the East,On Hold,7.0
 brangel,Cautious Hero,Completed,8.0
-steven07,"Love, Chunibyo & Other Delusions",Reading,
+steven07,"Love, Chunibyo & Other Delusions",Reading,NULL
 steven07,Tower of God,Reading,6.0
-steven07,Darwin's Game,Completed,
+steven07,Darwin's Game,Completed,NULL
 steven07,DanMachi,Reading,4.0
 steven07,Somali and the Forest Spirit,On Hold,7.0
 steven07,The Boy and the Beast,Completed,6.0
 steven07,Black Lagoon,Dropped,2.0
 xdavis,Domestic Girlfriend,Plan to Read,4.0
-bradleyedward,Baccano!,Plan to Read,
+bradleyedward,Baccano!,Plan to Read,NULL
 millererica,Kakushigoto,Dropped,7.0
 dmccormick,Beastars,Dropped,2.0
 dmccormick,Sword Art Online: Alicization,Completed,5.0
 dmccormick,The Boy and the Beast,Dropped,8.0
 dmccormick,How Heavy Are the Dumbbells You Lift?,Reading,8.0
-dmccormick,Rent-a-Girlfriend,Plan to Read,
+dmccormick,Rent-a-Girlfriend,Plan to Read,NULL
 dmccormick,The World God Only Knows,Plan to Read,5.0
 dmccormick,Angels of Death,Completed,9.0
 shannonjoshua,86 (Eighty-Six),Plan to Read,6.0
 shannonjoshua,Domestic Girlfriend,On Hold,8.0
-shannonjoshua,Cells at Work: Code Black,Plan to Read,
+shannonjoshua,Cells at Work: Code Black,Plan to Read,NULL
 shannonjoshua,Yamada-kun and the Seven Witches,Reading,1.0
 shannonjoshua,Is It Wrong to Try to Pick Up Girls in a Dungeon?,Completed,5.0
 shannonjoshua,The Misfit of Demon King Academy,On Hold,6.0
 shannonjoshua,DanMachi,On Hold,2.0
-donaldperez,How Heavy Are the Dumbbells You Lift?,On Hold,
+donaldperez,How Heavy Are the Dumbbells You Lift?,On Hold,NULL
 donaldperez,Tamako Market,Reading,6.0
 donaldperez,Somali and the Forest Spirit,Completed,8.0
 donaldperez,Rent-a-Girlfriend,Completed,10.0
@@ -99,29 +99,29 @@ srobinson,Somali and the Forest Spirit,On Hold,6.0
 srobinson,Kaguya-sama: Love is War,Completed,5.0
 michaelgarcia,ReLIFE,Completed,4.0
 michaelgarcia,Rent-a-Girlfriend,Plan to Read,4.0
-michaelgarcia,Fairy Tail: Final Series,Completed,
+michaelgarcia,Fairy Tail: Final Series,Completed,NULL
 michaelgarcia,Akame ga Kill!,Plan to Read,2.0
 michaelgarcia,Nagatoro,Dropped,8.0
-michaelgarcia,How Heavy Are the Dumbbells You Lift?,Completed,
+michaelgarcia,How Heavy Are the Dumbbells You Lift?,Completed,NULL
 tcollins,Witch Hunter Robin,Reading,10.0
 tcollins,My Next Life as a Villainess,Reading,10.0
 tcollins,Is It Wrong to Try to Pick Up Girls in a Dungeon?,Reading,9.0
-milleranita,ReLIFE,On Hold,
+milleranita,ReLIFE,On Hold,NULL
 milleranita,The Ancient Magus' Bride,Plan to Read,2.0
 cchen,The Melancholy of Haruhi Suzumiya,On Hold,8.0
 cchen,Darwin's Game,Plan to Read,10.0
 cchen,Is It Wrong to Try to Pick Up Girls in a Dungeon?,Plan to Read,3.0
-cchen,How a Realist Hero Rebuilt the Kingdom,Completed,
+cchen,How a Realist Hero Rebuilt the Kingdom,Completed,NULL
 scott33,Combatants Will Be Dispatched!,Dropped,3.0
 scott33,Log Horizon,Dropped,3.0
 scott33,Nagatoro,Completed,10.0
 scott33,Rascal Does Not Dream of Bunny Girl Senpai,Reading,4.0
-scott33,Ergo Proxy,On Hold,
+scott33,Ergo Proxy,On Hold,NULL
 jimenezjohn,Komi Can't Communicate,Dropped,1.0
 jimenezjohn,In/Spectre,Dropped,6.0
 thomasjames,Carole & Tuesday,On Hold,9.0
 thomasjames,Noblesse,Plan to Read,1.0
-mcgeekenneth,Darwin's Game,Plan to Read,
+mcgeekenneth,Darwin's Game,Plan to Read,NULL
 mcgeekenneth,Yamada-kun and the Seven Witches,Reading,2.0
 mcgeekenneth,The Misfit of Demon King Academy,On Hold,7.0
 mcgeekenneth,Samurai Champloo,Dropped,2.0
@@ -133,14 +133,14 @@ villanuevabrittany,Toilet-Bound Hanako-kun,Plan to Read,6.0
 villanuevabrittany,Komi Can't Communicate,Reading,10.0
 villanuevabrittany,Akame ga Kill!,Reading,8.0
 jnelson,The Boy and the Beast,Reading,10.0
-jnelson,Horou Musuko,Plan to Read,
+jnelson,Horou Musuko,Plan to Read,NULL
 fryan,Noblesse,On Hold,9.0
 fryan,Sword Art Online: Alicization,Plan to Read,9.0
 fryan,Fairy Tail: Final Series,On Hold,5.0
 fryan,ReLIFE,Reading,1.0
 lori88,Rascal Does Not Dream of Bunny Girl Senpai,Completed,2.0
 charles17,Akudama Drive,Plan to Read,6.0
-charles17,The Melancholy of Haruhi Suzumiya,Plan to Read,
+charles17,The Melancholy of Haruhi Suzumiya,Plan to Read,NULL
 charles17,Parasyte: The Maxim,On Hold,6.0
 scottholmes,Rascal Does Not Dream of Bunny Girl Senpai,Plan to Read,3.0
 scottholmes,Somali and the Forest Spirit,On Hold,9.0
@@ -150,16 +150,16 @@ scottholmes,Grand Blue,Dropped,6.0
 lopezchristine,Teasing Master Takagi-san,Completed,6.0
 leraymond,Sono Bisque Doll wa Koi wo Suru,Dropped,10.0
 leraymond,Sword Art Online: Alicization,Reading,6.0
-leraymond,Toilet-Bound Hanako-kun,Completed,
+leraymond,Toilet-Bound Hanako-kun,Completed,NULL
 leraymond,Quintessential Quintuplets,On Hold,9.0
 kellieholmes,Kaguya-sama: Love is War,Plan to Read,1.0
 kellieholmes,Eden of the East,On Hold,10.0
-kellieholmes,Gleipnir,Dropped,
+kellieholmes,Gleipnir,Dropped,NULL
 kellieholmes,Rent-a-Girlfriend,Dropped,1.0
-kellieholmes,Beastars,On Hold,
-kellieholmes,Grimgar of Fantasy and Ash,Plan to Read,
-kellieholmes,Summer Wars,Plan to Read,
-rebeccafox,Is It Wrong to Try to Pick Up Girls in a Dungeon?,Plan to Read,
+kellieholmes,Beastars,On Hold,NULL
+kellieholmes,Grimgar of Fantasy and Ash,Plan to Read,NULL
+kellieholmes,Summer Wars,Plan to Read,NULL
+rebeccafox,Is It Wrong to Try to Pick Up Girls in a Dungeon?,Plan to Read,NULL
 rebeccafox,Aharen-san wa Hakarenai,Dropped,4.0
 rebeccafox,Ascendance of a Bookworm,Completed,1.0
 rebeccafox,Noblesse,On Hold,1.0
@@ -171,10 +171,10 @@ lisa62,Carole & Tuesday,On Hold,8.0
 lisa62,Log Horizon,Dropped,8.0
 lisa62,Gamers!,Reading,2.0
 lisa62,Kakushigoto,Plan to Read,3.0
-lisa62,The Ancient Magus' Bride,Dropped,
+lisa62,The Ancient Magus' Bride,Dropped,NULL
 lisa62,Rent-a-Girlfriend,Reading,8.0
 lisa62,Plastic Memories,On Hold,1.0
-richardshields,Quintessential Quintuplets,Completed,
+richardshields,Quintessential Quintuplets,Completed,NULL
 richardshields,The Ancient Magus' Bride,Plan to Read,6.0
 richardshields,The Misfit of Demon King Academy,Completed,9.0
 richardshields,A Certain Scientific Railgun,Plan to Read,1.0
@@ -186,16 +186,16 @@ lambertdavid,Children of the Sea,Dropped,4.0
 rlyons,Tamako Market,Dropped,8.0
 rlyons,Angel Beats!,On Hold,1.0
 rlyons,Komi Can't Communicate,Reading,4.0
-rlyons,Grand Blue,Completed,
+rlyons,Grand Blue,Completed,NULL
 vbates,Classroom of the Elite,Reading,9.0
 vbates,Ascendance of a Bookworm,Dropped,7.0
 dmorgan,Kaguya-sama: Love is War,Completed,9.0
-dmorgan,Texhnolyze,On Hold,
-dmorgan,Uzaki-chan Wants to Hang Out!,Completed,
+dmorgan,Texhnolyze,On Hold,NULL
+dmorgan,Uzaki-chan Wants to Hang Out!,Completed,NULL
 dmorgan,Sono Bisque Doll wa Koi wo Suru,Reading,5.0
 dmorgan,Classroom of the Elite,Dropped,3.0
 dmorgan,Zombie Land Saga,Dropped,9.0
-dmorgan,Cells at Work: Code Black,On Hold,
+dmorgan,Cells at Work: Code Black,On Hold,NULL
 willisamanda,Jobless Reincarnation,Dropped,2.0
 mcculloughmark,Akame ga Kill!,Dropped,10.0
 mcculloughmark,"Love, Chunibyo & Other Delusions",Reading,5.0
@@ -203,10 +203,10 @@ mcculloughmark,Gamers!,Completed,7.0
 mcculloughmark,Keep Your Hands Off Eizouken!,Dropped,4.0
 mcculloughmark,My Next Life as a Villainess,Plan to Read,2.0
 williamsholly,Haganai,Plan to Read,10.0
-williamsholly,Soul Eater,Reading,
+williamsholly,Soul Eater,Reading,NULL
 williamsholly,Horou Musuko,Completed,7.0
 jwatson,Log Horizon,Plan to Read,7.0
-carolyn18,Noblesse,On Hold,
+carolyn18,Noblesse,On Hold,NULL
 carolyn18,Dorohedoro,Plan to Read,10.0
 carolyn18,The World God Only Knows,Completed,8.0
 carolyn18,Baccano!,On Hold,9.0
@@ -217,7 +217,7 @@ hamiltonbrandi,Akudama Drive,On Hold,10.0
 hamiltonbrandi,Samurai Champloo,Reading,1.0
 hamiltonbrandi,Blue Period,On Hold,4.0
 thomas64,Plastic Memories,Dropped,3.0
-thomas64,Eden of the East,On Hold,
+thomas64,Eden of the East,On Hold,NULL
 thomas64,How a Realist Hero Rebuilt the Kingdom,Reading,10.0
 thomas64,Trigun,Reading,6.0
 thomas64,Children of the Sea,Completed,2.0
@@ -227,38 +227,38 @@ rwilkins,Banana Fish,On Hold,7.0
 rwilkins,The Ancient Magus' Bride,Reading,9.0
 rwilkins,Black Lagoon,Dropped,4.0
 melissa65,Banana Fish,Completed,10.0
-duartedebbie,Dorohedoro,Completed,
-duartedebbie,Cautious Hero,Completed,
+duartedebbie,Dorohedoro,Completed,NULL
+duartedebbie,Cautious Hero,Completed,NULL
 duartedebbie,Classroom of the Elite,Reading,1.0
 duartedebbie,Kaguya-sama: Love is War,Dropped,9.0
-joyceharris,Ergo Proxy,On Hold,
+joyceharris,Ergo Proxy,On Hold,NULL
 joyceharris,Banana Fish,Reading,3.0
 suttonrobert,Texhnolyze,Reading,4.0
 andrew58,Arifureta,Plan to Read,4.0
 andrew58,Eden of the East,Dropped,9.0
 kendra49,The World God Only Knows,Completed,3.0
 vvelazquez,Gamers!,Reading,6.0
-vvelazquez,Jobless Reincarnation,On Hold,
-vvelazquez,Devilman Crybaby,Plan to Read,
+vvelazquez,Jobless Reincarnation,On Hold,NULL
+vvelazquez,Devilman Crybaby,Plan to Read,NULL
 vvelazquez,Samurai Champloo,On Hold,5.0
-vvelazquez,Texhnolyze,Completed,
+vvelazquez,Texhnolyze,Completed,NULL
 vvelazquez,Arifureta,On Hold,7.0
 luis58,Akiba Maid War,Reading,6.0
 luis58,Yamada-kun and the Seven Witches,On Hold,6.0
 luis58,Fairy Tail: Final Series,Reading,7.0
 luis58,Angels of Death,Reading,7.0
-luis58,Ergo Proxy,Plan to Read,
-aguirrethomas,Ascendance of a Bookworm,On Hold,
+luis58,Ergo Proxy,Plan to Read,NULL
+aguirrethomas,Ascendance of a Bookworm,On Hold,NULL
 aguirrethomas,Great Pretender,Plan to Read,6.0
 aguirrethomas,Plastic Memories,Completed,4.0
-aguirrethomas,Samurai Champloo,Plan to Read,
+aguirrethomas,Samurai Champloo,Plan to Read,NULL
 melissa31,Log Horizon,Reading,10.0
-nicole97,Sword Art Online: Alicization,On Hold,
+nicole97,Sword Art Online: Alicization,On Hold,NULL
 nicole97,Is It Wrong to Try to Pick Up Girls in a Dungeon?,Reading,8.0
 nicole97,Angel Beats!,On Hold,4.0
 nicole97,Rascal Does Not Dream of Bunny Girl Senpai,Plan to Read,1.0
-nicole97,Witch Hunter Robin,On Hold,
-nicole97,Fairy Tail: Final Series,Dropped,
+nicole97,Witch Hunter Robin,On Hold,NULL
+nicole97,Fairy Tail: Final Series,Dropped,NULL
 nicole97,Kakushigoto,Reading,10.0
 margaretgonzalez,The Misfit of Demon King Academy,Reading,8.0
 margaretgonzalez,DanMachi,Reading,2.0
@@ -271,18 +271,18 @@ jenkinsmelissa,Akiba Maid War,Dropped,5.0
 jenkinsmelissa,86 (Eighty-Six),Reading,4.0
 jenkinsmelissa,Cautious Hero,Reading,3.0
 jenkinsmelissa,Sword Art Online: Alicization,Reading,6.0
-jenkinsmelissa,How Heavy Are the Dumbbells You Lift?,Reading,
+jenkinsmelissa,How Heavy Are the Dumbbells You Lift?,Reading,NULL
 jenkinsmelissa,Somali and the Forest Spirit,Completed,3.0
 romerodonna,Jobless Reincarnation,Completed,6.0
 romerodonna,Dorohedoro,Reading,1.0
 davidpineda,Domestic Girlfriend,Reading,1.0
 davidpineda,Sword Art Online: Alicization,Reading,3.0
-davidpineda,Summer Wars,Reading,
+davidpineda,Summer Wars,Reading,NULL
 davidpineda,Akudama Drive,On Hold,4.0
 davidpineda,Komi Can't Communicate,Plan to Read,7.0
 davidpineda,Arte,Reading,4.0
-davidpineda,Kaguya-sama: Love is War,Reading,
-davidpineda,Gleipnir,On Hold,
+davidpineda,Kaguya-sama: Love is War,Reading,NULL
+davidpineda,Gleipnir,On Hold,NULL
 davidpineda,The Ancient Magus' Bride,Reading,6.0
 davidpineda,Toilet-Bound Hanako-kun,On Hold,2.0
 davisashley,Angel Beats!,Reading,6.0
@@ -292,8 +292,8 @@ davisashley,Aharen-san wa Hakarenai,Completed,10.0
 davisashley,Is It Wrong to Try to Pick Up Girls in a Dungeon?,Completed,4.0
 davisashley,Summer Wars,On Hold,6.0
 davisashley,Gleipnir,Completed,5.0
-davisashley,Angels of Death,Plan to Read,
-zaguilar,Tower of God,On Hold,
+davisashley,Angels of Death,Plan to Read,NULL
+zaguilar,Tower of God,On Hold,NULL
 zaguilar,Rent-a-Girlfriend,Completed,10.0
 zaguilar,In/Spectre,On Hold,6.0
 ujohnson,Darwin's Game,Reading,5.0
@@ -307,34 +307,34 @@ gregoryvalenzuela,The Ancient Magus' Bride,Dropped,2.0
 john52,Uzaki-chan Wants to Hang Out!,Plan to Read,2.0
 john52,Sono Bisque Doll wa Koi wo Suru,On Hold,4.0
 john52,Banana Fish,Dropped,3.0
-john52,86 (Eighty-Six),Completed,
-peter86,Teasing Master Takagi-san,On Hold,
+john52,86 (Eighty-Six),Completed,NULL
+peter86,Teasing Master Takagi-san,On Hold,NULL
 peter86,Arte,Plan to Read,10.0
 peter86,Tamako Market,Completed,7.0
 peter86,The Ancient Magus' Bride,Dropped,7.0
 wilsonantonio,The God of High School,On Hold,4.0
 wilsonantonio,Akudama Drive,Completed,4.0
-wilsonantonio,Aharen-san wa Hakarenai,Plan to Read,
+wilsonantonio,Aharen-san wa Hakarenai,Plan to Read,NULL
 wilsonantonio,Akame ga Kill!,On Hold,3.0
-wilsonantonio,ReLIFE,On Hold,
-kblake,Arte,Dropped,
+wilsonantonio,ReLIFE,On Hold,NULL
+kblake,Arte,Dropped,NULL
 gabriellawrence,Ascendance of a Bookworm,Completed,3.0
 gabriellawrence,Grand Blue,Reading,5.0
 mejiajennifer,ReLIFE,On Hold,3.0
-mejiajennifer,Carole & Tuesday,On Hold,
+mejiajennifer,Carole & Tuesday,On Hold,NULL
 mejiajennifer,Akiba Maid War,On Hold,8.0
 jenniferjohnson,Rascal Does Not Dream of Bunny Girl Senpai,Reading,2.0
 jenniferjohnson,Banana Fish,On Hold,9.0
-jenniferjohnson,Carole & Tuesday,On Hold,
-jenniferjohnson,Grimgar of Fantasy and Ash,Completed,
+jenniferjohnson,Carole & Tuesday,On Hold,NULL
+jenniferjohnson,Grimgar of Fantasy and Ash,Completed,NULL
 zachary81,Toilet-Bound Hanako-kun,Dropped,7.0
-zachary81,Log Horizon,Completed,
+zachary81,Log Horizon,Completed,NULL
 zachary81,86 (Eighty-Six),Dropped,8.0
 zachary81,Sword Art Online: Alicization,Dropped,5.0
 zachary81,Classroom of the Elite,On Hold,2.0
 zachary81,Dorohedoro,Dropped,4.0
 zachary81,Fairy Tail: Final Series,Reading,5.0
-zachary81,Cells at Work: Code Black,Dropped,
+zachary81,Cells at Work: Code Black,Dropped,NULL
 randydavis,Log Horizon,Dropped,8.0
 randydavis,My Next Life as a Villainess,Dropped,8.0
 randydavis,Black Lagoon,Reading,9.0
@@ -360,9 +360,9 @@ harriswendy,In/Spectre,On Hold,10.0
 harriswendy,Is It Wrong to Try to Pick Up Girls in a Dungeon?,Reading,8.0
 harriswendy,Combatants Will Be Dispatched!,Dropped,1.0
 shaun89,My Next Life as a Villainess,Dropped,1.0
-shaun89,Carole & Tuesday,Reading,
+shaun89,Carole & Tuesday,Reading,NULL
 shaun89,Tower of God,Reading,7.0
-shaun89,Baccano!,On Hold,
+shaun89,Baccano!,On Hold,NULL
 lori07,Akame ga Kill!,Completed,10.0
 lori07,Gleipnir,Reading,1.0
 lori07,Akudama Drive,Reading,10.0
@@ -375,15 +375,15 @@ ftaylor,Angels of Death,Completed,5.0
 ftaylor,Rascal Does Not Dream of Bunny Girl Senpai,Completed,3.0
 ftaylor,Dorohedoro,Completed,6.0
 chad29,Akame ga Kill!,Dropped,6.0
-chad29,The World God Only Knows,Completed,
+chad29,The World God Only Knows,Completed,NULL
 chad29,Plastic Memories,Reading,8.0
-chad29,"Love, Chunibyo & Other Delusions",On Hold,
+chad29,"Love, Chunibyo & Other Delusions",On Hold,NULL
 chad29,Carole & Tuesday,Reading,9.0
 chad29,Samurai Champloo,Reading,4.0
 chad29,Angels of Death,Plan to Read,10.0
 royshelley,DanMachi,Dropped,3.0
-royshelley,Texhnolyze,On Hold,
-royshelley,In/Spectre,Completed,
+royshelley,Texhnolyze,On Hold,NULL
+royshelley,In/Spectre,Completed,NULL
 royshelley,Akame ga Kill!,On Hold,4.0
 royshelley,Teasing Master Takagi-san,Reading,3.0
 royshelley,Aharen-san wa Hakarenai,Dropped,6.0
@@ -396,16 +396,16 @@ bonnieperez,How a Realist Hero Rebuilt the Kingdom,Plan to Read,10.0
 xguzman,Toilet-Bound Hanako-kun,On Hold,4.0
 xguzman,The Misfit of Demon King Academy,On Hold,3.0
 xguzman,Cautious Hero,Reading,9.0
-xguzman,Log Horizon,Dropped,
+xguzman,Log Horizon,Dropped,NULL
 xguzman,Cells at Work: Code Black,Dropped,1.0
 xguzman,Akiba Maid War,On Hold,9.0
-xguzman,Ergo Proxy,Plan to Read,
+xguzman,Ergo Proxy,Plan to Read,NULL
 xguzman,Komi Can't Communicate,Plan to Read,5.0
 xguzman,Grimgar of Fantasy and Ash,Plan to Read,2.0
-xguzman,Texhnolyze,Dropped,
+xguzman,Texhnolyze,Dropped,NULL
 xmolina,Banana Fish,Plan to Read,9.0
-xmolina,The Boy and the Beast,Dropped,
-msmith,Akudama Drive,Completed,
+xmolina,The Boy and the Beast,Dropped,NULL
+msmith,Akudama Drive,Completed,NULL
 elizabeth99,Summer Wars,Dropped,6.0
 elizabeth99,Trigun,Dropped,4.0
 wardstephen,Grimgar of Fantasy and Ash,Dropped,1.0
@@ -416,12 +416,12 @@ wardstephen,Tamako Market,Dropped,9.0
 wardstephen,Noblesse,Dropped,9.0
 wardstephen,Akudama Drive,Completed,6.0
 billysosa,Uzaki-chan Wants to Hang Out!,Completed,8.0
-jmatthews,Blue Period,Dropped,
+jmatthews,Blue Period,Dropped,NULL
 jmatthews,Cautious Hero,Plan to Read,2.0
 jmatthews,Arifureta,Reading,4.0
 fbutler,A Certain Scientific Railgun,Completed,5.0
-fbutler,Domestic Girlfriend,Reading,
+fbutler,Domestic Girlfriend,Reading,NULL
 fbutler,Ergo Proxy,Completed,6.0
-hernandezmary,Gamers!,On Hold,
+hernandezmary,Gamers!,On Hold,NULL
 hernandezmary,Great Pretender,Dropped,5.0
 hernandezmary,The Ancient Magus' Bride,Dropped,6.0

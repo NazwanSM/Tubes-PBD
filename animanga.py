@@ -20,24 +20,28 @@ premiered_seasons = ['Spring', 'Summer', 'Autumn', 'Winter']
 
 # Baca data series dari file CSV
 series_df = pd.read_csv('series.csv')
-series_titles = series_df['main_title'].tolist()
+
+# Filter series Anime dan Manga
+anime_series = series_df[series_df['media_type'] == 'Anime']
+manga_series = series_df[series_df['media_type'] == 'Manga']
 
 # Baca data studios dari file CSV
 studios_df = pd.read_csv('studios.csv')
 studio_names = studios_df['company_name'].tolist()
 
 # Fungsi untuk membuat data dummy anime
-def generate_anime_data(jumlah_data, series_titles, studio_names):
+def generate_anime_data(jumlah_data, anime_series, studio_names):
     data = []
+    anime_titles = anime_series['main_title'].tolist()
     used_titles = set()
     
     for _ in range(jumlah_data):
-        # Pilih judul yang belum pernah digunakan
-        main_title = random.choice([title for title in series_titles if title not in used_titles])
+        # Pilih judul anime yang belum pernah digunakan
+        main_title = random.choice([title for title in anime_titles if title not in used_titles])
         used_titles.add(main_title)
         
         # Cek status dari series asli
-        status = series_df[series_df['main_title'] == main_title]['status'].values[0]
+        status = anime_series[anime_series['main_title'] == main_title]['status'].values[0]
         
         # Jika status ongoing, batasi tipe anime
         if status == 'Ongoing':
@@ -78,17 +82,18 @@ def generate_anime_data(jumlah_data, series_titles, studio_names):
     return data
 
 # Fungsi untuk membuat data dummy manga
-def generate_manga_data(jumlah_data, series_titles):
+def generate_manga_data(jumlah_data, manga_series):
     data = []
+    manga_titles = manga_series['main_title'].tolist()
     used_titles = set()
     
     for _ in range(jumlah_data):
-        # Pilih judul yang belum pernah digunakan
-        main_title = random.choice([title for title in series_titles if title not in used_titles])
+        # Pilih judul manga yang belum pernah digunakan
+        main_title = random.choice([title for title in manga_titles if title not in used_titles])
         used_titles.add(main_title)
         
         # Cek status dari series asli
-        status = series_df[series_df['main_title'] == main_title]['status'].values[0]
+        status = manga_series[manga_series['main_title'] == main_title]['status'].values[0]
         
         # Jika status ongoing, batasi tipe manga
         if status == 'Ongoing':
@@ -124,18 +129,25 @@ def generate_manga_data(jumlah_data, series_titles):
     
     return data
 
-
 # Pastikan jumlah data series cukup untuk 158 entri
-assert len(series_df) >= 158, "Tidak cukup judul series untuk 158 entri"
+assert len(anime_series) + len(manga_series) >= 158, "Tidak cukup judul series untuk 158 entri"
 
-# Buat 79 data dummy anime
-anime_data = generate_anime_data(79, series_df['main_title'].tolist(), studio_names)
+# Tentukan jumlah data untuk anime dan manga
+jumlah_anime = min(79, len(anime_series))
+jumlah_manga = min(79, len(manga_series))
+
+# Buat data dummy anime
+anime_data = generate_anime_data(jumlah_anime, anime_series, studio_names)
 anime_df = pd.DataFrame(anime_data)
 
-# Buat 79 data dummy manga
-manga_data = generate_manga_data(79, series_df['main_title'].tolist())
+# Buat data dummy manga
+manga_data = generate_manga_data(jumlah_manga, manga_series)
 manga_df = pd.DataFrame(manga_data)
 
 # Simpan ke file CSV terpisah
 anime_df.to_csv('anime.csv', index=False)
 manga_df.to_csv('manga.csv', index=False)
+
+# Cetak informasi
+print(f"Jumlah data Anime: {len(anime_df)}")
+print(f"Jumlah data Manga: {len(manga_df)}")

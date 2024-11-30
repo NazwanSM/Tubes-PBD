@@ -1,27 +1,23 @@
 import pandas as pd
 import random
-
 # Baca data dari CSV
 companies_df = pd.read_csv('companies.csv')
 anime_df = pd.read_csv('anime.csv')
-
-# Baca file producers.csv dan licensors.csv
 producers_df = pd.read_csv('producers.csv')
 licensors_df = pd.read_csv('licensors.csv')
 
-# Fungsi untuk membuat relasi anime_licensors
-def generate_anime_licensors(anime_df, licensors_df):
-    anime_licensors_data = []
-    
-    # Ambil daftar nama licensors dari file licensors.csv
+def generate_comprehensive_relations(anime_df, licensors_df, producers_df):
+    # Ambil daftar nama licensors dan producers
     licensors_companies = licensors_df['company_name'].tolist()
+    producers_companies = producers_df['company_name'].tolist()
     
-    # Acak urutan licensors
-    random.shuffle(licensors_companies)
+    # Inisialisasi list untuk menyimpan data relasi
+    anime_licensors_data = []
+    anime_producers_data = []
     
-    # Batasi jumlah anime yang akan diberi licensor
-    for i, anime in anime_df.head(75).iterrows():
-        # Pilih 1-3 licensors untuk setiap anime
+    # Pastikan setiap anime memiliki minimal 1 lisensi dan 1 produser
+    for _, anime in anime_df.iterrows():
+        # Lisensi: minimal 1, maksimal 3
         num_licensors = random.randint(1, 3)
         selected_licensors = random.sample(licensors_companies, num_licensors)
         
@@ -30,22 +26,8 @@ def generate_anime_licensors(anime_df, licensors_df):
                 'company_name': licensor,
                 'anime_main_title': anime['main_title']
             })
-    
-    return pd.DataFrame(anime_licensors_data)
-
-# Fungsi untuk membuat relasi anime_producers
-def generate_anime_producers(anime_df, producers_df):
-    anime_producers_data = []
-    
-    # Ambil daftar nama producers dari file producers.csv
-    producers_companies = producers_df['company_name'].tolist()
-    
-    # Acak urutan producers
-    random.shuffle(producers_companies)
-    
-    # Batasi jumlah anime yang akan diberi producer
-    for i, anime in anime_df.head(75).iterrows():
-        # Pilih 1-2 producers untuk setiap anime
+        
+        # Produser: minimal 1, maksimal 2
         num_producers = random.randint(1, 2)
         selected_producers = random.sample(producers_companies, num_producers)
         
@@ -55,11 +37,36 @@ def generate_anime_producers(anime_df, producers_df):
                 'anime_main_title': anime['main_title']
             })
     
-    return pd.DataFrame(anime_producers_data)
+    # Konversi ke DataFrame
+    anime_licensors_df = pd.DataFrame(anime_licensors_data)
+    anime_producers_df = pd.DataFrame(anime_producers_data)
+    
+    # Validasi
+    def validate_relations():
+        # Pastikan setiap anime memiliki minimal 1 lisensi
+        licensors_count = anime_licensors_df.groupby('anime_main_title').size()
+        assert (licensors_count >= 1).all(), "Ada anime yang tidak memiliki lisensi"
+        
+        # Pastikan setiap anime memiliki minimal 1 produser
+        producers_count = anime_producers_df.groupby('anime_main_title').size()
+        assert (producers_count >= 1).all(), "Ada anime yang tidak memiliki produser"
+        
+        # Logging statistik
+        print("Validasi Relasi Anime:")
+        print(f"Total Anime: {len(anime_df)}")
+        print(f"Anime dengan Lisensi: {len(licensors_count)}")
+        print(f"Anime dengan Produser: {len(producers_count)}")
+        print(f"Rata-rata Lisensi per Anime: {licensors_count.mean():.2f}")
+        print(f"Rata-rata Produser per Anime: {producers_count.mean():.2f}")
+    
+    # Jalankan validasi
+    validate_relations()
+    
+    return anime_licensors_df, anime_producers_df
 
-# Generate data untuk anime_licensors dan anime_producers
-anime_licensors_df = generate_anime_licensors(anime_df, licensors_df)
-anime_producers_df = generate_anime_producers(anime_df, producers_df)
+
+# Generate relasi
+anime_licensors_df, anime_producers_df = generate_comprehensive_relations(anime_df, licensors_df, producers_df)
 
 # Simpan ke file CSV
 anime_licensors_df.to_csv('anime_licensors.csv', index=False)

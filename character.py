@@ -14,7 +14,7 @@ Main_Characters = ["Naruto Uzumaki", "Monkey D. Luffy", "Ichigo Kurosaki", "Eren
     "Denji", "Tohru Honda", "Kyouko Hori", "Koyomi Araragi", "Guts",
     "Ainz Ooal Gown", "Kazuma Satou", "Violet Evergarden", "Emma", "Soma Yukihira",
     "Yato", "Yuri Katsuki", "Nagisa Shiota", "Mikado Ryuugamine", "Aladdin",
-    "Raku Ichijou", "Shinichi Izumi", "Seishuu Handa", "Hachiman Hikigaya", "Tomoya Aki",
+    "Raku Ichijou", "Shinichi Izumii", "Seishuu Handa", "Hachiman Hikigaya", "Tomoya Aki",
     "Atsushi Nakajima", "Tetsuya Kuroko", "Sakamichi Onoda", "Haruka Nanase", "Lelouch Lamperouge",
     "Natsu Dragneel", "Asta", "Senku Ishigami", "Taki Tachibana", "Shouko Nishimiya",
     "Shinya Kogami", "Satoru Fujinuma", "Riko", "Nao Tomori","Tomoya Okazaki", "Yui Hirasawa",
@@ -27,13 +27,13 @@ Main_Characters = ["Naruto Uzumaki", "Monkey D. Luffy", "Ichigo Kurosaki", "Eren
     "Hanako-kun", "Kakushi Gotou", "Arte", "Shuuichi Kagaya", "Kaname Sudou",
     "Somali", "Kotoko Iwanaga", "Kaguya Shinomiya", "Fuutarou Uesugi", "Natsuo Fujii",
     "Kazuya Kinoshita", "Hana Uzaki", "Hajime Nagumo", "Kazuya Souma",
-    "Rudeus Greyrat", "Combat Agent Six", "Catarina Claes", "Anos Voldigoad", "Seiya Ryuuguuin",
-    "Myne", "Haruhiro", "Bell Cranel", "Bell Cranel", "Shiroe",
+    "Rudeus Greyratt", "Combat Agent Six", "Catarina Claes", "Anos Voldigoad", "Seiya Ryuuguuin",
+    "Myne", "Haruhiro", "Bell Cranel", "Bell Cranell", "Shiroe",
     "Hibiki Sakura", "Iori Kitahara", "Shouko Komi", "Wakana Gojo", "Hayase Nagatoro",
     "Reina Aharen", "Takagi", "Sakuta Azusagawa", "Ryu Yamada", "Keima Katsuragi",
     "Kodaka Hasegawa", "Keita Amano", "Kiyotaka Ayanokouji", "Haruhi Suzumiya", "Yuta Togashi",
     "Mikoto Misaka", "Shinichi Izumi", "Rock", "Otonashi Yuzuru", "Vash the Stampede",
-    "Maka Albarn", "Tatsumi", "Kirito", "Natsu Dragneel",  "Yatora Yaguchi", # Blue Period
+    "Maka Albarn", "Tatsumi", "Kiritot", "Natsu Dragneell",  "Yatora Yaguchi", # Blue Period
     "Re-l Mayer", # Ergo Proxy
     "Vladilena Milizé", # 86 (Eighty-Six)
     "Chise Hatori", # The Ancient Magus' Bride

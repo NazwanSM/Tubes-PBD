@@ -67,14 +67,12 @@ def generate_anime_stats(user_df, anime_df):
                 # Tentukan probabilitas menonton
                 if random.random() < 0.7:  # 70% peluang menonton
                     # Hitung episode yang ditonton
-                    total_episodes = anime['total_episodes']
-                    episodes_watched = random.randint(0, total_episodes) if total_episodes > 0 else 0
-                    
+                
+                
                     anime_stats_data.append({
                         'user_username': user['username'],
                         'anime_main_title': anime['main_title'],
                         'watch_status': random.choice(watch_status_options),
-                        'episodes_watched': episodes_watched,
                         'rating': random.randint(1, 10) if random.random() < 0.8 else None
                     })
                     

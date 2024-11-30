@@ -1,61 +1,121 @@
 company_name,alternate_name
-Madhouse,マンガエンターテインメント
-Discotek Media,ハイダイブ
-4Kids Entertainment,エー・ワン・ピクチャーズ
-Media Blasters,メディアブラスターズ
-King Records,NHK
-Trigger,ファニメーション
-NHK,サンライズ
-Square Enix,ピーエーワークス
-Studio Pierrot,ビズメディア
-Kadokawa,ノゾミエンターテインメント
-Avex Pictures,プロダクション・アイジー
-Studio Ghibli,ポニーキャニオン
-Toho Animation,ジェーシースタッフ
-Netflix,東宝アニメーション
-Sony Music,マッパ
-Crunchyroll,アニメイゴ
-Ufotable,スクウェア・エニックス
-CloverWorks,アニメリミテッド
-Production I.G,シルバーリンク
-Nozomi Entertainment,テレビ東京
-Disney+,ADVフィルムズ
-Kyoto Animation,グッドスマイルカンパニー
-Right Stuf,ソニー・ミュージック
-Shaft,角川書店
-TV Tokyo,ユーフォーテーブル
-MAPPA,ブシロード
-Brain's Base,ホワイトフォックス
-Aniplex,フォーキッズ・エンターテインメント
-Silver Link,フールー
-Anime Limited,ディスコテック・メディア
-AnimEigo,クランチロール
-J.C. Staff,ディズニープラス
-ADV Films,シャフト
-White Fox,ライトスタッフ
-Bandai Visual,講談社
-NBCUniversal Entertainment Japan,松竹
-Hulu,トリガー
-Bones,エイベックス・ピクチャーズ
-Amazon Prime Video,読売テレビ
-VRV,NISアメリカ
-Toei Animation,マッドハウス
-Media Factory,センタイフィルムワークス
-GKIDS,VRV
-Lerche,スタジオジブリ
-Yomiuri Telecasting,アマゾンプライムビデオ
-Viz Media,京都アニメーション
-NIS America,集英社
-Sunrise,ラルケ
-Shueisha,マッドマン・エンターテインメント
-Pony Canyon,メディアファクトリー
-Bushiroad,東映アニメーション
-Kodansha,スタジオぴえろ
-Madman Entertainment,ネットフリックス
-HIDIVE,アニプレックス
-Shochiku,ボンズ
-A-1 Pictures,ジーキッズ
-Manga Entertainment,バンダイビジュアル
-Sentai Filmworks,キングレコード
-Funimation,ブレインズ・ベース
-P.A. Works,クローバーワークス
+Anime Limited,東映アニメーション
+Anime Limited,토에이 애니메이션
+Madhouse,スタジオジブリ
+Madhouse,스튜디오 지브리
+King Records,サンライズ
+King Records,선라이즈
+Trigger,ボンズ
+Trigger,본즈
+Media Blasters,マッドハウス
+Media Blasters,매드하우스
+P.A. Works,京都アニメーション
+P.A. Works,교토 애니메이션
+GKIDS,ユーフォーテーブル
+GKIDS,유포터블
+Square Enix,マッパ
+Square Enix,맵파
+Viz Media,トリガー
+Viz Media,트리거
+Toei Animation,クローバーワークス
+Toei Animation,클로버웍스
+Hulu,エー・ワン・ピクチャーズ
+Hulu,A-1 픽처스
+MAPPA,ピーエーワークス
+MAPPA,P.A. 웍스
+Manga Entertainment,シャフト
+Manga Entertainment,샤프트
+Kodansha,ジェーシースタッフ
+Kodansha,J.C. 스태프
+Crunchyroll,プロダクション・アイジー
+Crunchyroll,프로덕션 I.G
+Aniplex,ラルケ
+Aniplex,레르케
+VRV,シルバーリンク
+VRV,실버 링크
+Shueisha,スタジオぴえろ
+Shueisha,스튜디오 피에로
+Right Stuf,ブレインズ・ベース
+Right Stuf,브레인즈 베이스
+Madman Entertainment,ホワイトフォックス
+Madman Entertainment,화이트 폭스
+ADV Films,アニプレックス
+ADV Films,애니플렉스
+4Kids Entertainment,角川書店
+4Kids Entertainment,가도카와
+A-1 Pictures,バンダイビジュアル
+A-1 Pictures,반다이 비주얼
+Sony Music,キングレコード
+Sony Music,킹 레코드
+Ufotable,ポニーキャニオン
+Ufotable,포니 캐년
+Shaft,NBCユニバーサル・エンターテイメント・ジャパン
+Shaft,NBC유니버설 엔터테인먼트 재팬
+Funimation,エイベックス・ピクチャーズ
+Funimation,에이벡스 픽처스
+CloverWorks,ソニー・ミュージック
+CloverWorks,소니 뮤직
+NIS America,東宝アニメーション
+NIS America,도호 애니메이션
+J.C. Staff,松竹
+J.C. Staff,쇼치쿠
+Avex Pictures,集英社
+Avex Pictures,슈에이샤
+Netflix,講談社
+Netflix,코단샤
+Brain's Base,メディアファクトリー
+Brain's Base,미디어 팩토리
+AnimEigo,グッドスマイルカンパニー
+AnimEigo,굿스마일 컴퍼니
+Kyoto Animation,ブシロード
+Kyoto Animation,부시로드
+Good Smile Company,スクウェア・エニックス
+Good Smile Company,스퀘어 에닉스
+Nozomi Entertainment,読売テレビ
+Nozomi Entertainment,요미우리 텔레캐스팅
+Discotek Media,テレビ東京
+Discotek Media,TV 도쿄
+Bushiroad,NHK
+Bushiroad,nhk
+Studio Ghibli,ネットフリックス
+Studio Ghibli,넷플릭스
+Sentai Filmworks,クランチロール
+Sentai Filmworks,크런치롤
+HIDIVE,ファニメーション
+HIDIVE,퍼니메이션
+Pony Canyon,センタイフィルムワークス
+Pony Canyon,센타이 필름웍스
+Media Factory,ディスコテック・メディア
+Media Factory,디스코텍 미디어
+Sunrise,ビズメディア
+Sunrise,비즈 미디어
+Studio Pierrot,アニメリミテッド
+Studio Pierrot,애니메 리미티드
+Lerche,マッドマン・エンターテインメント
+Lerche,매드맨 엔터테인먼트
+Disney+,アニメイゴ
+Disney+,애니메이고
+Toho Animation,ライトスタッフ
+Toho Animation,라이트 스터프
+Silver Link,ジーキッズ
+Silver Link,GKids
+Shochiku,マンガエンターテインメント
+Shochiku,망가 엔터테인먼트
+Bandai Visual,フォーキッズ・エンターテインメント
+Bandai Visual,포키즈 엔터테인먼트
+Kadokawa,メディアブラスターズ
+Kadokawa,미디어 블래스터스
+TV Tokyo,ADVフィルムズ
+TV Tokyo,ADV 필름스
+NHK,ノゾミエンターテインメント
+NHK,노조미 엔터테인먼트
+Amazon Prime Video,NISアメリカ
+Amazon Prime Video,NIS 아메리카
+Production I.G,アマゾンプライムビデオ
+Production I.G,아마존 프라임 비디오
+White Fox,ハイダイブ
+White Fox,hidive
+Yomiuri Telecasting,VRV
+Yomiuri Telecasting,vrv
+Bones,フールー
+Bones,훌루
